@@ -1,0 +1,11 @@
+.DS_Store
+.idea/
+.ai/
+
+**/bin/
+**/obj/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates

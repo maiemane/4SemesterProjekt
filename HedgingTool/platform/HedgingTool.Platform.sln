@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0DE79ADA-11AF-403F-AB00-6FBCDCE2C0F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HedgingTool.Platform.Api", "src\HedgingTool.Platform.Api\HedgingTool.Platform.Api.csproj", "{76C37324-0AB8-4E5A-B864-D186CB785842}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HedgingTool.Platform.Application", "src\HedgingTool.Platform.Application\HedgingTool.Platform.Application.csproj", "{49FF6552-5D58-419D-B64D-5092655D0D5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HedgingTool.Platform.Domain", "src\HedgingTool.Platform.Domain\HedgingTool.Platform.Domain.csproj", "{84032B98-A673-4FF8-8C14-C1F51676778D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HedgingTool.Platform.Infrastructure", "src\HedgingTool.Platform.Infrastructure\HedgingTool.Platform.Infrastructure.csproj", "{4C89BE6F-8A9C-480C-9B27-85C6901107F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76C37324-0AB8-4E5A-B864-D186CB785842} = {0DE79ADA-11AF-403F-AB00-6FBCDCE2C0F2}
+		{49FF6552-5D58-419D-B64D-5092655D0D5B} = {0DE79ADA-11AF-403F-AB00-6FBCDCE2C0F2}
+		{84032B98-A673-4FF8-8C14-C1F51676778D} = {0DE79ADA-11AF-403F-AB00-6FBCDCE2C0F2}
+		{4C89BE6F-8A9C-480C-9B27-85C6901107F2} = {0DE79ADA-11AF-403F-AB00-6FBCDCE2C0F2}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76C37324-0AB8-4E5A-B864-D186CB785842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C37324-0AB8-4E5A-B864-D186CB785842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C37324-0AB8-4E5A-B864-D186CB785842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C37324-0AB8-4E5A-B864-D186CB785842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49FF6552-5D58-419D-B64D-5092655D0D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FF6552-5D58-419D-B64D-5092655D0D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FF6552-5D58-419D-B64D-5092655D0D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FF6552-5D58-419D-B64D-5092655D0D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84032B98-A673-4FF8-8C14-C1F51676778D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84032B98-A673-4FF8-8C14-C1F51676778D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84032B98-A673-4FF8-8C14-C1F51676778D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84032B98-A673-4FF8-8C14-C1F51676778D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C89BE6F-8A9C-480C-9B27-85C6901107F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C89BE6F-8A9C-480C-9B27-85C6901107F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C89BE6F-8A9C-480C-9B27-85C6901107F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C89BE6F-8A9C-480C-9B27-85C6901107F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\HedgingTool.Platform.Application\HedgingTool.Platform.Application.csproj" />
+      <ProjectReference Include="..\HedgingTool.Platform.Infrastructure\HedgingTool.Platform.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
