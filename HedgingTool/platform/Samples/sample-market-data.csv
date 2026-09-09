@@ -1,0 +1,5 @@
+Date,Ticker,Name,Currency,QuoteUnit,OfficialClose,NAV,SourceCode,Source
+2026-07-30,CTUK LN Equity,CT UK Capital and Income,GBp,PRICE,363,377.21,BLOOMBERG,Bloomberg
+2026-07-29,CTUK LN Equity,CT UK Capital and Income,GBp,PRICE,363,377.21,BLOOMBERG,Bloomberg
+2026-07-28,CTUK LN Equity,CT UK Capital and Income,GBp,PRICE,358.5,377.21,BLOOMBERG,Bloomberg
+2026-07-30,JUGI LN Equity,JPM UK Equity Income,GBp,PRICE,339.5,377.86,BLOOMBERG,Bloomberg
