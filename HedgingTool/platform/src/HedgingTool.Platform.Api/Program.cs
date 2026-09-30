@@ -2,6 +2,7 @@ using System.Text;
 using HedgingTool.Platform.Api.Components;
 using HedgingTool.Platform.Application.Interfaces;
 using HedgingTool.Platform.Application.Services.Auth;
+using HedgingTool.Platform.Application.Services.Funds;
 using HedgingTool.Platform.Infrastructure.Auth;
 using HedgingTool.Platform.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -61,9 +62,11 @@ builder.Services.AddAuthorizationBuilder()
         .Build());
 
 builder.Services.AddScoped<ILoginService, LoginService>();
+builder.Services.AddScoped<IFundService, FundService>();
 builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
 builder.Services.AddScoped<IPasswordHashingService, PasswordHashingService>();
 builder.Services.AddScoped<IPasswordVerificationService, PasswordVerificationService>();
+builder.Services.AddScoped<IFundRepository, FundRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 var app = builder.Build();
