@@ -11,4 +11,10 @@
       <ProjectReference Include="..\HedgingTool.Platform.Domain\HedgingTool.Platform.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <FrameworkReference Include="Microsoft.AspNetCore.App" />
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.3" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.14.0" />
+    </ItemGroup>
+
 </Project>
